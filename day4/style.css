@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.Profile-card{
+    width: 300px;
+    padding: 25px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px gray;
+}
+.Profile-card img{
+ height: 120px;
+width: 120px; 
+border-radius: 50%;
+align-items: center;
+object-fit: cover;
+
+
+}
+.Profile-card h1{
+    padding: 15px 20px;
+
+}
+.Profile-card p{
+    font-size: 20px;
+
+}
+.Profile-card h2{
+    padding: 15px 20px;
+}
+.Profile-card ul li{
+    text-align: center;
+    margin: 12px;
+    font-size: larger;
+    color: rgb(76, 10, 199);
+    list-style: none;
+    padding: 0;
+}
+.Profile-card button{
+    padding:  10px 20px ;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+ 
